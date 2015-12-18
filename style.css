@@ -1,0 +1,107 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #dae5e3;
+	color: black;
+}
+
+
+header {
+	height: 100px;
+	color: black;
+	background-color: #809e9b;
+	margin: 0;
+}
+
+
+h1 {
+	font-size: 48px;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.numbers {
+	/*this is the place where the little buttons are*/
+ 	width: 900px;
+ 	height: relative;
+ 	margin: 10px 0 auto 0px;
+}
+
+button {
+	/*these are the number buttons*/
+	margin: 5px 15px 0 0;
+	padding: 5px;
+	background-color: #00acb0;
+	width: 55px;
+	font-size: 36px;
+}
+
+button:active {
+	background-color: #337277;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+
+.active {
+	background-color: #337277;
+	color: white;
+	position: relative;
+	top: -5px;
+}
+
+.buttoncontainer {
+	/*container for the big button*/
+	margin: auto;
+}
+
+.randomizer {
+	/*this is the big button*/
+	margin: auto;
+	background-color: #337277;
+	color: white;
+	width: 250px;
+}
+
+.container {
+	width: 1000px;
+}
+
+.container:after {
+	content: "";
+	background: url("logo.png");
+	opacity: 0.2;
+	top: 350px;
+	left: 350px;
+	right: 350px;
+	margin: auto;
+	position: absolute;
+	z-index: -1; 
+	background-repeat: no-repeat;
+	height: 512px;
+	width: 512px;
+}
+
+.group {
+	/*this is each group of people*/
+	color: white;
+	text-shadow: 1px 1px #337277;
+	vertical-align: top;
+	width: 170;
+	background-color: #00acb0;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 9px;
+	font-size: 36px;
+	border: 2px solid black;
+} 
+
+span {
+	text-decoration: underline;
+}
+
+p {
+	display: none;
+}
